@@ -1,0 +1,17 @@
+action-extractor/
+├── docker/
+│   ├── Dockerfile
+│   └── requirements.txt
+├── src/
+│   ├── main.py
+│   ├── audio_processor.py
+│   ├── text_processor.py
+│   ├── gemini_client.py
+│   └── utils.py
+├── tests/
+│   ├── test_audio_processor.py
+│   ├── test_text_processor.py
+│   └── test_gemini_client.py
+├── .env.example
+├── .gitignore
+└── docker-compose.yml 
