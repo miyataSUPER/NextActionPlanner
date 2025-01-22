@@ -8,13 +8,13 @@ services:
     ports:
       - "8501:8501"
     volumes:
-      - ./src:/app
+      - ./src:/app/src
       - ./data:/app/data
     env_file:
       - .env
     environment:
       - PYTHONPATH=/app
-    command: streamlit run src/app.py
+    command: streamlit run src/main.py
     depends_on:
       - db
 
