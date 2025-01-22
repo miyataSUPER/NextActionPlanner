@@ -144,11 +144,7 @@ NextActionPlanner/
 ## ライセンス
 MIT License
 
-## 作者
-宮田大資  
-京都産業大学 情報理工学部データサイエンスコース  
-- Mail: miyata.aistart@gmail.com
-- Tel: 080-2999-8873
+
 
 ## 貢献
 バグ報告や機能改善の提案は、GitHubのIssueやPull Requestsで受け付けています。
